@@ -1,0 +1,10 @@
+ePoc.onLoad = () => {
+    // Executé lorsque le plugin est chargé à l'ouverture de l'ePoc
+    console.log('Hello World');
+
+    // Le plugin retourne le nom du template et le shortcode pour l'intégrer dans les pages de texte
+    return {
+        template: 'plugin_template.html',    // nom du fichier du template html
+        shortcode: '[#hello_world]'          // à mettre dans la page de texte
+    };
+};
