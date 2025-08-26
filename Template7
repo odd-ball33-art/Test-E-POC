@@ -1,0 +1,11 @@
+<html lang="en">
+<head>
+    <!-- Affichage identique à l'app mobile -->
+    <link rel="stylesheet" href="/assets/css/plugin-embed.css">
+</head>
+<body>
+    <h1>Hello World</h1>
+    <!-- Script pour avoir accès à l'API ePoc -->
+    <script src="/assets/js/plugin-api-embed.js"></script>
+</body>
+</html>
